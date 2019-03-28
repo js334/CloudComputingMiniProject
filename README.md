@@ -65,7 +65,7 @@ API combines Metropolitan Police API together with the Google Geolocation API to
 
  * Update Password
    PUT /
-   Requieres Bearer Token provided during the login
+   Requires Bearer Token provided during the login
    `http://127.0.0.1:5000/updatepassword`
    
    `{"username":"your_username", "password":"new_password"}`
@@ -85,7 +85,7 @@ API combines Metropolitan Police API together with the Google Geolocation API to
 
  * Delete user
    DELETE /
-   Requieres Bearer Token provided during the login
+   Requires Bearer Token provided during the login
    `http://127.0.0.1:5000/deleteuser`
    
    `{"username":"your_username"}`
@@ -105,7 +105,7 @@ API combines Metropolitan Police API together with the Google Geolocation API to
 
  * Get crimes details
    GET /
-   Requieres Bearer Token provided during the login
+   Requires Bearer Token provided during the login
    `http://127.0.0.1:5000/records/your_postcode`
      
 ### Response
@@ -118,24 +118,16 @@ API combines Metropolitan Police API together with the Google Geolocation API to
     Date →Thu, 28 Mar 2019 01:22:23 GMT`
    
    `<!doctype html>
-<html>
-<head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-</head>
-
-<body>
-
-  
-      <div id="graph-0"></div>
-  
-      <div id="graph-1"></div>
-  
-
-
-<script type="text/javascript">
-
+    <html>
+      <head>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+       <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+       <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      </head>
+      <body> 
+         <div id="graph-0"></div>  
+         <div id="graph-1"></div>
+         <script type="text/javascript">
 var mygraphs = [{"data": [{"hole": 0.4, "labels": ["theft-from-the-person", "bicycle-theft", "anti-social-behaviour", "vehicle-crime", "possession-of-weapons", "shoplifting", "drugs", "criminal-damage-arson", "burglary", "robbery", "other-theft", "public-order", "other-crime", "violent-crime"], "name": "Category", "type": "pie", "values": [5, 10, 62, 56, 2, 1, 7, 16, 57, 17, 28, 24, 3, 97]}], "layout": {"title": "Crime Categoty Stats During 2019-01"}}, {"data": [{"hole": 0.4, "labels": ["Awaiting court outcome", "None", "Offender given a caution", "Local resolution", "Under investigation", "Investigation complete; no suspect identified"], "name": "Outcome", "type": "pie", "values": [10, 62, 1, 4, 235, 73]}], "layout": {"title": "Crime Outcome Stats During 2019-01"}}];
 var ids = ['graph-0', 'graph-1'];
 
@@ -147,8 +139,5 @@ Plotly.plot(ids[i], // the ID of the div, created above
             console.log(mygraphs[i])
 }
 </script>
-
 </body>
-
 </html>`
- 
