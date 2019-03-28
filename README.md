@@ -117,7 +117,7 @@ API combines Metropolitan Police API together with the Google Geolocation API to
     Server →Werkzeug/0.15.1 Python/2.7.13
     Date →Thu, 28 Mar 2019 01:22:23 GMT`
    
-   ` <!doctype html>
+   `<!doctype html>
     <html>
       <head>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
@@ -127,17 +127,13 @@ API combines Metropolitan Police API together with the Google Geolocation API to
       <body> 
          <div id="graph-0"></div>  
          <div id="graph-1"></div>
-         <script type="text/javascript">
-var mygraphs = [{"data": [{"hole": 0.4, "labels": ["theft-from-the-person", "bicycle-theft", "anti-social-behaviour", "vehicle-crime", "possession-of-weapons", "shoplifting", "drugs", "criminal-damage-arson", "burglary", "robbery", "other-theft", "public-order", "other-crime", "violent-crime"], "name": "Category", "type": "pie", "values": [5, 10, 62, 56, 2, 1, 7, 16, 57, 17, 28, 24, 3, 97]}], "layout": {"title": "Crime Categoty Stats During 2019-01"}}, {"data": [{"hole": 0.4, "labels": ["Awaiting court outcome", "None", "Offender given a caution", "Local resolution", "Under investigation", "Investigation complete; no suspect identified"], "name": "Outcome", "type": "pie", "values": [10, 62, 1, 4, 235, 73]}], "layout": {"title": "Crime Outcome Stats During 2019-01"}}];
+         <script type="text/javascript">var mygraphs = [{"data": [{"hole": 0.4, "labels": ["theft-from-the-person", "bicycle-theft", "anti-social-behaviour", "vehicle-crime", "possession-of-weapons", "shoplifting", "drugs", "criminal-damage-arson", "burglary", "robbery", "other-theft", "public-order", "other-crime", "violent-crime"], "name": "Category", "type": "pie", "values": [5, 10, 62, 56, 2, 1, 7, 16, 57, 17, 28, 24, 3, 97]}], "layout": {"title": "Crime Categoty Stats During 2019-01"}}, {"data": [{"hole": 0.4, "labels": ["Awaiting court outcome", "None", "Offender given a caution", "Local resolution", "Under investigation", "Investigation complete; no suspect identified"], "name": "Outcome", "type": "pie", "values": [10, 62, 1, 4, 235, 73]}], "layout": {"title": "Crime Outcome Stats During 2019-01"}}];
 var ids = ['graph-0', 'graph-1'];
-
 for(var i in mygraphs) {
-
 Plotly.plot(ids[i], // the ID of the div, created above
             mygraphs[i].data,
             mygraphs[i].layout || {});
-            console.log(mygraphs[i])
-}
+            console.log(mygraphs[i])}
 </script>
 </body>
-</html> `
+</html>`
