@@ -1,2 +1,5 @@
-flask_venv/
+#ignore config instace
 instance/
+
+#ignore virtual environment folder
+venv/
