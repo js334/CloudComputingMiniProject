@@ -3,5 +3,5 @@ A Flask python CrimeApp API was created for the purpose of the Cloud Computing c
 
 API combines Metropolitan Police API together with the Google Geolocation API to obtain the crimes details in the specific areas. In order to functionate, it requires authentication.
 
-# REST API REQUESTS
+## REST API REQUESTS
 
