@@ -126,7 +126,8 @@ API combines Metropolitan Police API together with the Google Geolocation API to
       </head>
       <body> 
          <div id="graph-0"></div>  
-         <div id="graph-1"></div><script type="text/javascript">var mygraphs = [{"data": [{"hole": 0.4, "labels": ["theft-from-the-person", "bicycle-theft", "anti-social-behaviour", "vehicle-crime", "possession-of-weapons", "shoplifting", "drugs", "criminal-damage-arson", "burglary", "robbery", "other-theft", "public-order", "other-crime", "violent-crime"], "name": "Category", "type": "pie", "values": [5, 10, 62, 56, 2, 1, 7, 16, 57, 17, 28, 24, 3, 97]}], "layout": {"title": "Crime Categoty Stats During 2019-01"}}, {"data": [{"hole": 0.4, "labels": ["Awaiting court outcome", "None", "Offender given a caution", "Local resolution", "Under investigation", "Investigation complete; no suspect identified"], "name": "Outcome", "type": "pie", "values": [10, 62, 1, 4, 235, 73]}], "layout": {"title": "Crime Outcome Stats During 2019-01"}}];
+         <div id="graph-1"></div>`
+         `<script type="text/javascript">var mygraphs = [{"data": [{"hole": 0.4, "labels": ["theft-from-the-person", "bicycle-theft", "anti-social-behaviour", "vehicle-crime", "possession-of-weapons", "shoplifting", "drugs", "criminal-damage-arson", "burglary", "robbery", "other-theft", "public-order", "other-crime", "violent-crime"], "name": "Category", "type": "pie", "values": [5, 10, 62, 56, 2, 1, 7, 16, 57, 17, 28, 24, 3, 97]}], "layout": {"title": "Crime Categoty Stats During 2019-01"}}, {"data": [{"hole": 0.4, "labels": ["Awaiting court outcome", "None", "Offender given a caution", "Local resolution", "Under investigation", "Investigation complete; no suspect identified"], "name": "Outcome", "type": "pie", "values": [10, 62, 1, 4, 235, 73]}], "layout": {"title": "Crime Outcome Stats During 2019-01"}}];
 var ids = ['graph-0', 'graph-1'];
 for(var i in mygraphs) {
 Plotly.plot(ids[i], // the ID of the div, created above
